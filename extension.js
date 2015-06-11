@@ -57,10 +57,10 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Baladita's Bot",
         language: "portuguese",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupCap: 10, // 1-200
+        startupVolume: 10, // 0-100
         startupEmoji: true, // true or false
-        chatLink: "https://rawgit.com/PrincessDie/Baladita-Bot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/prot0n/Clubinho-Bot/master/lang/pt.json",
         maximumAfk: 60,
         afkRemoval: false,
         maximumDc: 30,
@@ -113,6 +113,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/PrincessDie/Baladita-Bot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/prot0n/Clubinho-Bot/master/basicBot.js", extend);
 
 }).call(this);
