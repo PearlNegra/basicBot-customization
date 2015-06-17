@@ -97,7 +97,7 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: "[soon]",
+        rulesLink: "http://bit.ly/CZRules",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
