@@ -55,12 +55,12 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Bot Clubinho da Zoeira",
+        botName: "ᘛ BLack Peark Bot ᘚ",
         language: "portuguese",
         startupCap: 10, // 1-200
         startupVolume: 10, // 0-100
         startupEmoji: true, // true or false
-        chatLink: "https://rawgit.com/prot0n/Clubinho-Bot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/PearlNegra/BlackPearlBot/master/lang/pt.json",
         maximumAfk: 60,
         afkRemoval: false,
         maximumDc: 30,
@@ -74,7 +74,7 @@
         voteSkip: true,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 06,
+        maximumSongLength: 07,
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -97,7 +97,7 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: "http://bit.ly/CZRules",
+        rulesLink: "http://bit.ly/BPRules",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
@@ -113,6 +113,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/prot0n/Clubinho-Bot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/PearlNegra/BlackPearlBot/master/basicBot.js", extend);
 
 }).call(this);
