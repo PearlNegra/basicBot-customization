@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "ᘛ BLack Peark Bot ᘚ",
+        botName: "ᘛ Black Pearl Bot ᘚ",
         language: "portuguese",
         startupCap: 10, // 1-200
         startupVolume: 10, // 0-100
